@@ -2,7 +2,7 @@
 
 这是我的个人主页，展示了我作为程序员、思考者的身份。
 
-👉 访问主页：[https://AlessioDark.github.io](https://AlessioDark.github.io)
+👉 访问主页：[https://maoxiangqian.github.io](https://maoxiangqian.github.io)
 
 ## 关于我
 
@@ -12,5 +12,5 @@
 
 ## 联系我
 
-- GitHub: [AlessioDark](https://github.com/AlessioDark)
-- 邮箱: your.email@example.com
+- GitHub: [maoxiangqian](https://maoxiangqian.github.io)
+- 邮箱: maoxq324@gmail.com
