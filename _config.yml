@@ -1,3 +1,16 @@
-title: Maoxq
-description: Developer Portfolio - C++ · Qt · OpenGL · Python
-theme: jekyll-theme-minimal
+title: Cal Mao
+description: 我的简历 | My resume
+baseurl: "" # 如果是 github.io 就留空
+url: "https://maoxiangqian.github.io"
+
+name: "Cal Mao"
+email: "maoxq324@gmail.com"
+phone: "手机号"
+location: "中国 苏州"
+
+social_links:
+  github: maoxiangqian
+  linkedin: 你的LinkedIn用户名（可选）
+
+# 页面设置
+theme: modern-resume-theme
