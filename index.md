@@ -4,7 +4,6 @@ layout: home
 
 <p align="center">
 <img src="/assets/img/avatar.jpg" alt="Maoxiangqian" width="140" style="border-radius: 25%; box-shadow: 0 4px 16px rgba(0,0,0,0.15); margin-bottom: 16px; border: 3px solid #f0f0f0;">
-
 </p>
 
 <h1 align="center">Maoxiangqian</h1>
