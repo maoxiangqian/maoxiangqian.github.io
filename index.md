@@ -2,12 +2,16 @@
 layout: home
 ---
 
-# Cal Mao
+<p align="center">
+  <img src="/assets/img/avatar.jpg" alt="Maoxiangqian" width="140" style="border-radius: 50%; box-shadow: 0 2px 8px #ccc;">
+</p>
 
-**Software Engineer**  
-Suzhou, China  
-📧 [maoxq324@gmail.com](mailto:maoxq324@gmail.com)  
-🌐 [GitHub: maoxiangqian](https://github.com/maoxiangqian)
+<h1 align="center">Maoxiangqian</h1>
+<p align="center"><b>Software Engineer</b><br>Suzhou, China</p>
+<p align="center">
+  📧 <a href="mailto:maoxq324@gmail.com">maoxq324@gmail.com</a> &nbsp;|&nbsp;
+  🌐 <a href="https://github.com/maoxiangqian">GitHub: maoxiangqian</a>
+</p>
 
 ---
 
@@ -26,8 +30,8 @@ Suzhou, China
 - **Languages:** C++, Python, C, JavaScript  
 - **Frameworks/Libraries:** Qt, OpenGL, Flutter, Flask  
 - **Databases:** SQLite, MySQL, MongoDB, Redis  
-- **Tools:** Git, Visual Studio, CMake,Vscode  
-- **Platforms:** Windows, Linux, Macos
+- **Tools:** Git, Visual Studio, CMake, VSCode  
+- **Platforms:** Windows, Linux, MacOS  
 - **Other:** Multithreading, UI/UX optimization, Performance tuning
 
 ---
