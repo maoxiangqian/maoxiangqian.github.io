@@ -7,7 +7,7 @@ layout: home
 **Software Engineer**  
 Suzhou, China  
 📧 [maoxq324@gmail.com](mailto:maoxq324@gmail.com)  
-🌐 [GitHub: AlessioDark](https://github.com/AlessioDark)
+🌐 [GitHub: maoxiangqian](https://github.com/maoxiangqian)
 
 ---
 
@@ -16,7 +16,7 @@ Suzhou, China
 - Detail-oriented and self-driven software engineer with 5+ years of experience in C++, Qt, and cross-platform application development.
 - Specialized in 2D/3D point cloud processing, graphics rendering, and real-time industrial systems.
 - Proven ability to independently design, develop, and deploy production-grade software in both research and commercial settings.
-- Fluent in English with strong communication and documentation skills.
+- Fluent in English with communication and documentation skills.
 - Experienced in remote and cross-functional collaboration.
 
 ---
@@ -25,9 +25,9 @@ Suzhou, China
 
 - **Languages:** C++, Python, C, JavaScript  
 - **Frameworks/Libraries:** Qt, OpenGL, Flutter, Flask  
-- **Databases:** SQLite, MySQL, MongoDB  
-- **Tools:** Git, Visual Studio, CMake, Valgrind  
-- **Platforms:** Windows, Linux  
+- **Databases:** SQLite, MySQL, MongoDB, Redis  
+- **Tools:** Git, Visual Studio, CMake,Vscode  
+- **Platforms:** Windows, Linux, Macos
 - **Other:** Multithreading, UI/UX optimization, Performance tuning
 
 ---
@@ -36,7 +36,7 @@ Suzhou, China
 
 ### Software Engineer (3D Point Cloud Visualization & Measurement)  
 **Wuxi Research Institute of Huazhong University of Science and Technology (HUST)**  
-*Jan 2020 – May 2022 | Wuxi, China*
+*Jan 2020 – May 2023 | Wuxi, China*
 
 - Independently designed and developed a 2D contour measurement tool for 3D point cloud processing using C++, Qt, and OpenGL/QPainter for optimized rendering.
 - Created a full-featured cross-platform graphics library (Windows/Linux) for geometric primitives (lines, arcs, polylines), enabling interactive editing, annotation, and real-time contour analysis.
@@ -47,7 +47,7 @@ Suzhou, China
 
 ### Software Engineer (Medical Imaging Systems)  
 **Suzhou Vinno Technology (Feinno)**  
-*Mar 2022 – Present | Suzhou, China*
+*Mar 2023 – Mar 2024 | Suzhou, China*
 
 - Developed software systems for ultrasound endoscope devices, including modules for patient management, device control, image processing, and user interface design.
 - Implemented cross-platform solutions using C++, Qt, Flutter, and Linux, ensuring high performance and intuitive UX.
