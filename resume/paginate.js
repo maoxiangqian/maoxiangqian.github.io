@@ -1,3 +1,11 @@
+async function loadContent(url) {
+  const response = await fetch(url);
+  const html = await response.text();
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(html, 'text/html');
+  return doc.querySelector('div');
+}
+
 function paginateTwoColumns(leftContent, rightContent) {
   const pagesContainer = document.getElementById("pages");
 
@@ -40,6 +48,8 @@ function paginateTwoColumns(leftContent, rightContent) {
 }
 
 // Example usage:
-const leftContent = document.getElementById("left-source");
-const rightContent = document.getElementById("right-source");
-paginateTwoColumns(leftContent, rightContent);
+(async () => {
+  const leftContent = await loadContent('left-side.html');
+  const rightContent = await loadContent('right-side.html');
+  paginateTwoColumns(leftContent, rightContent);
+})();

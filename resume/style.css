@@ -1,18 +1,42 @@
-body {
+.page {
     width: 210mm;
-    margin: 10mm auto;
-    border: 1px solid #000;
+    /* A4 width */
+    height: 297mm;
+    /* A4 height */
+    margin: 20px auto;
+    /* gap between pages */
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    /* two-column layout */
     padding: 10mm;
 }
 
-@page {
-    size: A4;
-    margin: 20mm;
+.left-side {
+    flex: 0.6;
+    /* equal width columns */
+    padding: 10mm;
+    overflow: hidden;
+    /* prevent overflow */
 }
 
+.right-side {
+    flex: 1;
+    /* equal width columns */
+    padding: 10mm;
+    overflow: hidden;
+    /* prevent overflow */
+}
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
+@media print {
+    body {
+        margin: 0;
+        background: none;
+    }
+
+    .page {
+        box-shadow: none;
+        margin: 0;
+        page-break-after: always;
+    }
 }
