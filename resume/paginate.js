@@ -1,31 +1,45 @@
-function paginate() {
-  const content = document.getElementById("content");
+function paginateTwoColumns(leftContent, rightContent) {
   const pagesContainer = document.getElementById("pages");
-  const tempDiv = document.createElement("div");
-  tempDiv.style.width = "210mm";
-  tempDiv.style.height = "297mm";
-  tempDiv.style.padding = "20mm";
-  tempDiv.style.boxSizing = "border-box";
-  tempDiv.style.position = "absolute";
-  tempDiv.style.visibility = "hidden";
-  document.body.appendChild(tempDiv);
 
   let currentPage = document.createElement("div");
   currentPage.className = "page";
+
+  let leftCol = document.createElement("div");
+  leftCol.className = "left-side";
+
+  let rightCol = document.createElement("div");
+  rightCol.className = "right-side";
+
+  currentPage.appendChild(leftCol);
+  currentPage.appendChild(rightCol);
   pagesContainer.appendChild(currentPage);
 
-  [...content.childNodes].forEach(node => {
-    currentPage.appendChild(node.cloneNode(true));
-    if (currentPage.scrollHeight > currentPage.clientHeight) {
-      // remove last node and start new page
-      currentPage.removeChild(currentPage.lastChild);
+  function addNodeToColumn(node, column) {
+    column.appendChild(node.cloneNode(true));
+    if (column.scrollHeight > column.clientHeight) {
+      column.removeChild(column.lastChild);
       currentPage = document.createElement("div");
       currentPage.className = "page";
-      pagesContainer.appendChild(currentPage);
-      currentPage.appendChild(node.cloneNode(true));
-    }
-  });
 
-  document.body.removeChild(tempDiv);
+      leftCol = document.createElement("div");
+      leftCol.className = "left-side";
+
+      rightCol = document.createElement("div");
+      rightCol.className = "right-side";
+
+      currentPage.appendChild(leftCol);
+      currentPage.appendChild(rightCol);
+      pagesContainer.appendChild(currentPage);
+
+      column.appendChild(node.cloneNode(true));
+    }
+  }
+
+  [...leftContent.childNodes].forEach(node => addNodeToColumn(node, leftCol));
+  [...rightContent.childNodes].forEach(node => addNodeToColumn(node, rightCol));
 }
-paginate();
+
+// Example usage:
+const leftContent = document.getElementById("left-source");
+const rightContent = document.getElementById("right-source");
+paginateTwoColumns(leftContent, rightContent);
