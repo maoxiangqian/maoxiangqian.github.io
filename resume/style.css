@@ -1,0 +1,18 @@
+body {
+    width: 210mm;
+    margin: 10mm auto;
+    border: 1px solid #000;
+    padding: 10mm;
+}
+
+@page {
+    size: A4;
+    margin: 20mm;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
