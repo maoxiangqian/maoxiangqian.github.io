@@ -69,41 +69,6 @@
     border-left: 4px solid #007acc;
 }
 
-/* .skill-group {
-    margin-bottom: 12px;
-}
-
-.skill-group h4 {
-    font-size: 12px;
-    font-weight: 600;
-    margin: 8px 0 6px;
-    text-transform: uppercase;
-    color: #333;
-}
-
-.skill-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 6px;
-    font-size: 13px;
-}
-
-.skill-row span {
-    font-size: 13px;
-    min-width: auto;
-    flex-shrink: 0;
-}
-
-.skill-row .progress {
-    flex: 1;
-    margin: 0;
-    height: 8px;
-    background: #e9ecef;
-    border-radius: 4px;
-    overflow: hidden;
-} */
-
 .right-side {
     flex: 1;
     /* equal width columns */
@@ -114,6 +79,47 @@
 
 /* .summary p {
     font-size: 16px;
+} */
+
+.timeline {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 24px;
+    border-left: 2px solid black;
+    /* border: 1px solid #007acc; */
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -31px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    background: black;
+    border-radius: 50%;
+}
+
+.timeline-date {
+    /* font-size: 0.9rem;
+    font-weight: 600; */
+    color: grey;
+    /* margin-bottom: 4px; */
+}
+
+/* .timeline-title {
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.timeline-content {
+    color: #444;
+    line-height: 1.5;
 } */
 
 @media print {
