@@ -1,4 +1,12 @@
-let arr1=[1,2,3]
-console.log(...arr1)
-arr2=[...arr1,4,5]
-console.log(arr2)
+function convertHTML(str){
+  let res=str.replaceAll(/&/g,"&amp;")
+  res=res.replaceAll(/</g,"&lt;")
+  res=res.replaceAll(/>/g,"&gt;")
+  res=res.replaceAll(/"/g,"&quot;")
+  res=res.replaceAll(/'/g,"&apos;")
+  return res
+}
+
+console.log(convertHTML("Dolce & Gabbana"))
+
+console.log(Number(undefined),Number(null))
