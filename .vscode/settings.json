@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "cmake.sourceDirectory": "/Users/maoxiangqian/Documents/maoxiangqian.github.io/resume/cpp-repo",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }

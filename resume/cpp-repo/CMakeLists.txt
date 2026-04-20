@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+message(STATUS "CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}")
+project(app)
+set(CMAKE_PREFIX_PATH "./build/build/Release/generators" ${CMAKE_PREFIX_PATH})
+find_package(fmt REQUIRED)
+find_package(Catch2 REQUIRED)
+add_executable(app main.cpp)
+target_link_libraries(app fmt::fmt Catch2::Catch2WithMain)

@@ -1,0 +1,112 @@
+Original map
+Vtable for 'A' (3 entries).
+   0 | offset_to_top (0)
+   1 | A RTTI
+       -- (A, 0) vtable address --
+   2 | void A::print()
+
+VTable indices for 'A' (1 entries).
+   0 | void A::print()
+
+Original map
+Vtable for 'std::basic_streambuf' (16 entries).
+   0 | offset_to_top (0)
+   1 | std::basic_streambuf RTTI
+       -- (std::basic_streambuf, 0) vtable address --
+   2 | std::basic_streambuf<char>::~basic_streambuf() [complete]
+   3 | std::basic_streambuf<char>::~basic_streambuf() [deleting]
+   4 | void std::basic_streambuf<char>::imbue(const locale &) [_CharT = char, _Traits = std::char_traits<char>]
+   5 | basic_streambuf<_CharT, _Traits> *std::basic_streambuf<char>::setbuf(char_type *, streamsize) [_CharT = char, _Traits = std::char_traits<char>]
+   6 | typename basic_streambuf<_CharT, _Traits>::pos_type std::basic_streambuf<char>::seekoff(off_type, ios_base::seekdir, ios_base::openmode) [_CharT = char, _Traits = std::char_traits<char>]
+   7 | typename basic_streambuf<_CharT, _Traits>::pos_type std::basic_streambuf<char>::seekpos(pos_type, ios_base::openmode) [_CharT = char, _Traits = std::char_traits<char>]
+   8 | int std::basic_streambuf<char>::sync() [_CharT = char, _Traits = std::char_traits<char>]
+   9 | streamsize std::basic_streambuf<char>::showmanyc() [_CharT = char, _Traits = std::char_traits<char>]
+  10 | streamsize std::basic_streambuf<char>::xsgetn(char_type *, streamsize) [_CharT = char, _Traits = std::char_traits<char>]
+  11 | typename basic_streambuf<_CharT, _Traits>::int_type std::basic_streambuf<char>::underflow() [_CharT = char, _Traits = std::char_traits<char>]
+  12 | typename basic_streambuf<_CharT, _Traits>::int_type std::basic_streambuf<char>::uflow() [_CharT = char, _Traits = std::char_traits<char>]
+  13 | typename basic_streambuf<_CharT, _Traits>::int_type std::basic_streambuf<char>::pbackfail(int_type) [_CharT = char, _Traits = std::char_traits<char>]
+  14 | streamsize std::basic_streambuf<char>::xsputn(const char_type *, streamsize) [_CharT = char, _Traits = std::char_traits<char>]
+  15 | typename basic_streambuf<_CharT, _Traits>::int_type std::basic_streambuf<char>::overflow(int_type) [_CharT = char, _Traits = std::char_traits<char>]
+
+VTable indices for 'std::basic_streambuf' (14 entries).
+   0 | std::basic_streambuf<char>::~basic_streambuf() [_CharT = char, _Traits = std::char_traits<char>] [complete]
+   1 | std::basic_streambuf<char>::~basic_streambuf() [_CharT = char, _Traits = std::char_traits<char>] [deleting]
+   2 | void std::basic_streambuf<char>::imbue(const locale &) [_CharT = char, _Traits = std::char_traits<char>]
+   3 | basic_streambuf<_CharT, _Traits> *std::basic_streambuf<char>::setbuf(char_type *, streamsize) [_CharT = char, _Traits = std::char_traits<char>]
+   4 | typename basic_streambuf<_CharT, _Traits>::pos_type std::basic_streambuf<char>::seekoff(off_type, ios_base::seekdir, ios_base::openmode) [_CharT = char, _Traits = std::char_traits<char>]
+   5 | typename basic_streambuf<_CharT, _Traits>::pos_type std::basic_streambuf<char>::seekpos(pos_type, ios_base::openmode) [_CharT = char, _Traits = std::char_traits<char>]
+   6 | int std::basic_streambuf<char>::sync() [_CharT = char, _Traits = std::char_traits<char>]
+   7 | streamsize std::basic_streambuf<char>::showmanyc() [_CharT = char, _Traits = std::char_traits<char>]
+   8 | streamsize std::basic_streambuf<char>::xsgetn(char_type *, streamsize) [_CharT = char, _Traits = std::char_traits<char>]
+   9 | typename basic_streambuf<_CharT, _Traits>::int_type std::basic_streambuf<char>::underflow() [_CharT = char, _Traits = std::char_traits<char>]
+  10 | typename basic_streambuf<_CharT, _Traits>::int_type std::basic_streambuf<char>::uflow() [_CharT = char, _Traits = std::char_traits<char>]
+  11 | typename basic_streambuf<_CharT, _Traits>::int_type std::basic_streambuf<char>::pbackfail(int_type) [_CharT = char, _Traits = std::char_traits<char>]
+  12 | streamsize std::basic_streambuf<char>::xsputn(const char_type *, streamsize) [_CharT = char, _Traits = std::char_traits<char>]
+  13 | typename basic_streambuf<_CharT, _Traits>::int_type std::basic_streambuf<char>::overflow(int_type) [_CharT = char, _Traits = std::char_traits<char>]
+
+Original map
+ std::locale::facet::~facet() -> std::__shared_count::~__shared_count()
+ void std::locale::facet::__on_zero_shared() -> void std::__shared_count::__on_zero_shared()
+ std::ctype<char>::~ctype() -> std::locale::facet::~facet()
+Vtable for 'std::ctype' (13 entries).
+   0 | offset_to_top (0)
+   1 | std::ctype RTTI
+       -- (std::__shared_count, 0) vtable address --
+       -- (std::ctype, 0) vtable address --
+       -- (std::locale::facet, 0) vtable address --
+   2 | std::ctype<char>::~ctype() [complete]
+   3 | std::ctype<char>::~ctype() [deleting]
+   4 | void std::locale::facet::__on_zero_shared()
+   5 | char_type std::ctype<char>::do_toupper(char_type) const
+   6 | const char_type *std::ctype<char>::do_toupper(char_type *, const char_type *) const
+   7 | char_type std::ctype<char>::do_tolower(char_type) const
+   8 | const char_type *std::ctype<char>::do_tolower(char_type *, const char_type *) const
+   9 | char_type std::ctype<char>::do_widen(char) const
+  10 | const char *std::ctype<char>::do_widen(const char *, const char *, char_type *) const
+  11 | char std::ctype<char>::do_narrow(char_type, char) const
+  12 | const char *std::ctype<char>::do_narrow(const char_type *, const char_type *, char, char *) const
+
+VTable indices for 'std::ctype' (10 entries).
+   0 | std::ctype<char>::~ctype() [complete]
+   1 | std::ctype<char>::~ctype() [deleting]
+   3 | char_type std::ctype<char>::do_toupper(char_type) const
+   4 | const char_type *std::ctype<char>::do_toupper(char_type *, const char_type *) const
+   5 | char_type std::ctype<char>::do_tolower(char_type) const
+   6 | const char_type *std::ctype<char>::do_tolower(char_type *, const char_type *) const
+   7 | char_type std::ctype<char>::do_widen(char) const
+   8 | const char *std::ctype<char>::do_widen(const char *, const char *, char_type *) const
+   9 | char std::ctype<char>::do_narrow(char_type, char) const
+  10 | const char *std::ctype<char>::do_narrow(const char_type *, const char_type *, char, char *) const
+
+Original map
+ std::locale::facet::~facet() -> std::__shared_count::~__shared_count()
+ void B::print() -> void A::print()
+ void std::locale::facet::__on_zero_shared() -> void std::__shared_count::__on_zero_shared()
+ std::ctype<char>::~ctype() -> std::locale::facet::~facet()
+Vtable for 'B' (3 entries).
+   0 | offset_to_top (0)
+   1 | B RTTI
+       -- (A, 0) vtable address --
+       -- (B, 0) vtable address --
+   2 | void B::print()
+
+VTable indices for 'B' (1 entries).
+   0 | void B::print()
+
+Original map
+ void C::print() -> void B::print()
+ std::locale::facet::~facet() -> std::__shared_count::~__shared_count()
+ void B::print() -> void A::print()
+ void std::locale::facet::__on_zero_shared() -> void std::__shared_count::__on_zero_shared()
+ std::ctype<char>::~ctype() -> std::locale::facet::~facet()
+Vtable for 'C' (3 entries).
+   0 | offset_to_top (0)
+   1 | C RTTI
+       -- (A, 0) vtable address --
+       -- (B, 0) vtable address --
+       -- (C, 0) vtable address --
+   2 | void C::print()
+
+VTable indices for 'C' (1 entries).
+   0 | void C::print()
+
