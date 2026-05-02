@@ -1,0 +1,27 @@
+About the job
+Full-Stack Engineer, WPP Open China
+
+Reports to: Head of Engineering, WPP Tech
+
+Location: Wuxi
+
+
+
+Responsibilities
+
+End-to-end delivery: Build high-performance, accessible, responsive web apps using one of React/Vue/Angular with modern modular/componentized practices; integrate with back-end services to ship complete features.
+Front-end performance & UX: Optimize load time, rendering, and memory usage; resolve cross-browser/device compatibility and establish best practices.
+Back-end & platform: Design, develop, test, deploy, and maintain internal services and APIs; contribute to overall platform and cloud infrastructure architecture and implementation.
+Cloud & infrastructure: Manage resources via IaC (Terraform/CloudFormation); use Docker/Kubernetes for containerization and orchestration; understand major clouds (AWS/Azure/GCP).
+CI/CD & automation: Build and evolve automated build/test/release pipelines (e.g., Jenkins/GitLab); promote 'golden paths' and engineering efficiency.
+Observability & reliability: Implement monitoring, logging, and alerting to ensure system health and performance; participate in incident response and root-cause analysis.
+Developer enablement & collaboration: Partner with engineers, PMs, and stakeholders; communicate clearly, review code, share knowledge, and iterate the platform from developer feedback.
+
+
+Qualifications
+
+Bachelor’s in CS or related field, or equivalent experience; 5+ years in full-stack/front-end/back-end development, with mid-to-large-scale project experience preferred.
+Front-end: Strong HTML/CSS/JavaScript; proficient with one of React/Vue/Angular; clean coding habits and modular mindset; solid visual/interaction sense.
+Back-end: Proficient in at least one of Python/Go/Java; experience with API design, development, and operations.
+Cloud/Platform: Understanding of AWS/Azure/GCP; hands-on with Terraform/CloudFormation, Docker/Kubernetes, and CI/CD (Jenkins/GitLab).
+Excellent problem-solving, communication, collaboration, and self-driven learning; able to drive engineering best practices.

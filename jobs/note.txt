@@ -1,0 +1,44 @@
+# wpp interviewer preparation
+## There is a web around the gate.
+### web application performance.
+    1. latency
+    2. reqs/s
+    3. resources
+## In the red-green-blue tracffic pass. There is a gate.
+### WSGI
+Web Server Gate Interface
+## Across the road. There is a jinja is working and clicking on the desk.
+### work WEB server gate Interface
+### jinjia
+### click
+## app in the tong-an
+## A dog escape in the nanjing college road from the route. variable
+### escape route variable
+## at the cross. there are four dogs and their mom.
+### url_for, http method.
+## at the across, There is a static people and a framer is rendering template.
+### static and rendering
+## A cat sing a song and hold a flower to a meetting
+### config g session request 
+## A mom is looking forward method to make cookies
+### args method cookies form
+## On the brige, there is a stack and a heap.
+### stack memory and heap memory
+## on the restroom, there is a sweetheart provides water.
+### python generator, index(tree),closure
+## client
+## tracffic
+### static people. Two things. One for automic isolation. Two for consistency durability
+doctor is doing operation. transaction
+## restroom eventloop one person for image. one person for con
+### entrypoint=programm cmd=parameter
+## two cats and three snakes asyn
+### EC2 and S3 son
+## at cross there is a cross
+## two number
+## At xiuan , someone from top to bottom , another from bottom to top. there are a lot of kids.
+### subproblem, top-down bottom-up
+## at nanjing university decorator
+## at the traffic restful API 躺在老的树根上休息,Kubernetes,Docker
+## at the brige green unicorn and Nginx. motor enginer,ssr card
+## at liftor lasy man. lasy load.
