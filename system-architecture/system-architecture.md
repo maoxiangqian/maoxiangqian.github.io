@@ -37,5 +37,10 @@ smart contract.
 ## In the lift, There is a man on the balance.
 Load balance. Static, Dynamic.
 ## In the train, there is AI and Event and ran.
+## In the traffic, there is twic, One is on the enterprise with his intellecture property, other one is visit the recursive.s
 ## In the gate, a man is component asembly, manchester is trade-off, the design should be followed.
 Commponent asembly, manchester code, Architecture trade-of analysis method, 1NF, 2NF, 3NF. Logical design.
+## In the gate, Don't throw sausage pizza away. objects of class deployment component, use senquence activity state is communication, a man is picturing,
+architecture-based system design, one event affect another event,universial description, discovery and integration.
+## In the traffic , a robust man is detecting , then went to virtual server without access, find zero.
+
