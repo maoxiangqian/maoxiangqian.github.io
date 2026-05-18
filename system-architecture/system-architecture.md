@@ -43,4 +43,21 @@ Commponent asembly, manchester code, Architecture trade-of analysis method, 1NF,
 ## In the gate, Don't throw sausage pizza away. objects of class deployment component, use senquence activity state is communication, a man is picturing,
 architecture-based system design, one event affect another event,universial description, discovery and integration.
 ## In the traffic , a robust man is detecting , then went to virtual server without access, find zero.
-
+## In the farm, there is a message which be put into block, and use the lock to lock it.
+Message, Sequence disgram, Communication diagram, asyn, return message. Distributed Lock: Based database, based redis lock, Dead lock. Block, N-version, Software reliability: MTTD, MTTR, AVAILABILITY.
+## ZooKeer use mango to feed lambda.
+ZooKeeper Distributed Lock, MangoDB, GeoJson. Lambda architecture: batch layer, speed layer, serving layer.
+## A deriver is deriving on the cloud, meets a reviewer.
+Model derivering architecture. Cloud operations. Unit test, review, walkthrouth, static analysis.
+## Microservice, Microservice is comunic ating with each other.
+API, Broker, k8s.
+## In the traffic, there is image, a old women said, It has been not used recently. Reid is finding the shortest path to temp vaiable.
+## In the village, there is a sensitive cat, a domain, compont. There is Cyber-physical system.
+## In the briage, there is a gril distribute apples, there is water flow, there is a group of black mens, there is a car broken, there is a purple.sentinel
+Distributed database cache, Flow: user->cache->db. Redis culster. problem. purpose: high speed, high concurency, reduce DB pressure.
+## On the briage, saga crashed, there is 2 docters doing operations.
+Saga. 2 phase commits. opertions, one crash will not affect other service, indenpent, can adpot different stack, para.
+## In the traffic, There is a man that arm is strong, Put down database file from database. There is a ice which is segment fish, get a message from someone.
+## In the traffic, requirements, ER, USER-CASE and template is increment.
+## Stand on the architecture, require priviage.
+Archtecure-based-system-design, Archtecture style, Arctecture reuse, priviage.
